@@ -1,20 +1,20 @@
-// Works5.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include "Triangle.h"
+#include "Rectangle.h"
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Triangle tri(5, 4);
+    Rectangle rect(5, 4);
+    cout << tri.area() << endl;
+    cout << rect.area() << endl;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+// Using an appropriate file structure, write a program that defines a Shape class with a constructor that gives
+// values to properties width and height. Then define two sub - classes: Triangle and Rectangle.Define
+// a method, area(), that calculates the area of the shape.In the application file, define instances of
+// Triangle and Rectangle and then call the area() function for these two objects, ensuring that the
+// correct values are returned.
+// To assist, it may be useful to refer to page 632 (pdf p20) for information on redefining functions in child
+// classes.
