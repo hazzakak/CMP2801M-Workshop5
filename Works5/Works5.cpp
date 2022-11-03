@@ -5,8 +5,11 @@ using namespace std;
 
 int main()
 {
+    // init the objects with height and widths of 5, 4.
     Triangle tri(5, 4);
     Rectangle rect(5, 4);
+
+    // print the areas of both triangle and rectangle objects.
     cout << tri.area() << endl;
     cout << rect.area() << endl;
 }

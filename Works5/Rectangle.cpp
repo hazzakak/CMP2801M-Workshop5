@@ -9,7 +9,3 @@ Rectangle::Rectangle(int width, int height) : Shape(width, height)
 	RecWidth = width;
 };
 
-double Rectangle::area()
-{
-	return RecHeight * RecWidth;
-}
