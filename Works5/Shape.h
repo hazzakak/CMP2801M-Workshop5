@@ -2,6 +2,6 @@
 struct Shape {
 public:
 	double area();
-	Shape(int h, int w);
+	Shape(double h, double w);
 };
 

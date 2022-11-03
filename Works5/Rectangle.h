@@ -5,9 +5,9 @@
 class Rectangle : public Shape
 {
 public:
-	Rectangle(int h, int w);
+	Rectangle(double h, double w);
 	// don't need "area()" as Shape already has a basic area finder.
-	int RecHeight;
-	int RecWidth;
+	double RecHeight;
+	double RecWidth;
 };
 

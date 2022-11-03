@@ -1,9 +1,9 @@
 #include "Rectangle.h"
 
-int RecHeight;
-int RecWidth;
+double RecHeight;
+double RecWidth;
 
-Rectangle::Rectangle(int width, int height) : Shape(width, height)
+Rectangle::Rectangle(double width, double height) : Shape(width, height)
 {
 	RecHeight = height;
 	RecWidth = width;

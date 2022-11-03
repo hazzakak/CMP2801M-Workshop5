@@ -1,9 +1,9 @@
 #include "Triangle.h"
 
-int TriWidth;
-int TriHeight;
+double TriWidth;
+double TriHeight;
 
-Triangle::Triangle(int width, int height) : Shape(width, height) {
+Triangle::Triangle(double width, double height) : Shape(width, height) {
 	TriWidth = width;
 	TriHeight = height;
 }

@@ -6,12 +6,12 @@ using namespace std;
 int main()
 {
     // init the objects with height and widths of 5, 4.
-    Triangle tri(5, 4);
-    Rectangle rect(5, 4);
+    Triangle tri(5, 5);
+    Rectangle rect(20, 20);
 
     // print the areas of both triangle and rectangle objects.
-    cout << tri.area() << endl;
-    cout << rect.area() << endl;
+    cout << "Area of triangle is: " << tri.area() << endl;
+    cout << "Area of rectangle is: " << rect.area() << endl;
 }
 
 // Using an appropriate file structure, write a program that defines a Shape class with a constructor that gives

@@ -1,10 +1,10 @@
 #include "Shape.h"
 #include <iostream>
 
-int ShapeWidth;
-int ShapeHeight;
+double ShapeWidth;
+double ShapeHeight;
 
-Shape::Shape(int w, int h)
+Shape::Shape(double w, double h)
 {
 	ShapeWidth = w;
 	ShapeHeight = h;

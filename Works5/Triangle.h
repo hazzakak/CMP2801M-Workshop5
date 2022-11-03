@@ -5,10 +5,10 @@
 class Triangle: public Shape
 {
 public:
-	Triangle(int h, int w);
+	Triangle(double h, double w);
 	// override "area" to correctly output the triangles area.
 	double area();
-	int TriWidth;
-	int TriHeight;
+	double TriWidth;
+	double TriHeight;
 };
 
